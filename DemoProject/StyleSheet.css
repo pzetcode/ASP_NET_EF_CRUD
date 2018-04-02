@@ -1,0 +1,88 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: beige;
+    background-color: steelblue;
+}
+
+section#sideMenu {    
+    width: 300px;    
+    float: left;    
+}
+
+section#mainContent {
+    text-align: center;
+    width: 1000px;
+    height: 700px;
+    float: left;
+    background-color: cadetblue;
+    border-spacing: 1px;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+table {
+    border-spacing: 1px;
+    border-collapse: collapse;
+    background-color: darkslategray;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+    table * {
+        position: center;
+    }
+
+    table th {
+        background-color: midnightblue;
+    }
+
+    table td, table th {
+        padding-left: 8px;        
+    }
+
+    table thead tr {
+        height: 60px;
+        background-color: midnightblue;
+    }
+
+    table tbody tr {
+        height: 50px;
+    }
+       
+
+    table td, table th {
+        text-align: left;
+    }
+
+.Menu ul {
+    background-color: cornflowerblue;
+}
+
+    .Menu ul li {
+        background: cornflowerblue;
+        text-align: center;
+        width: 200px;
+    }
+
+    .Menu ul li a {
+                    color: black;
+                    padding: 4px 2px 4px;
+                    padding-left: 8px !important;
+                    border: 1px solid #648ABD;
+                    border-bottom: 0;
+                }
+  
+    .Menu ul li a:hover {
+                color: White;
+                }
+
+    .Menu ul li a {
+                 color: Black;
+                 }
+
+fieldset {
+    text-align: left !important;
+}

@@ -1,0 +1,22 @@
+﻿<% Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"  %>
+
+@using DemoProject;
+@{ 
+    
+    List<CarsTable> allRecords = new List<CarsTable>();
+
+    using (SampleDatabaseEntities db = new SampleDatabaseEntities())
+    {
+        allRecords = db.CarsTables.Select(x => x).ToList();
+
+    }
+
+    WebGrid webGrid = new WebGrid(allRecords);
+}
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+   @webGrid.GetHtml();
+</asp:Content>
