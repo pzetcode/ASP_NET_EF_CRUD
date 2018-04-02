@@ -3,8 +3,8 @@
   <siteMapNode url="~/Default.aspx" title="Default page"  description="Default page of project">
     <siteMapNode url="~/Dbcontent.aspx" title="DB Show data (WebGrid)"  description="Show database content" />
     <siteMapNode url="~/DbcontentGridView.aspx" title="DB CRUD (GridView)"  description="Edit database content" />
-    <siteMapNode url="~/UploadFile.aspx" title="Import XML file"  description="Import XML into database" />
     <siteMapNode url="~/AddCar.aspx" title="Add new car"  description="Add new car" />
+    <siteMapNode url="~/UploadFile.aspx" title="Import XML file"  description="Import XML into database" />
     <siteMapNode url="~/ExportDbContent.aspx" title="Export db content"  description="Export db content to external xml" />    
   </siteMapNode>
 </siteMap>
