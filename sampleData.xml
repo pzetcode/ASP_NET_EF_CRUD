@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cars>
+	<Car>
+	  <Factory>Opel</Factory>
+	  <Model>Frontera</Model>
+	  <Warranty>10</Warranty>
+	  <Modelyear>2/1/1998</Modelyear>
+	</Car>
+	<Car>
+	  <Factory>Skoda</Factory>
+	  <Model>Favorit</Model>
+	  <Warranty>5</Warranty>
+	  <Modelyear>12/1/2015</Modelyear>
+	</Car>
+</Cars>
