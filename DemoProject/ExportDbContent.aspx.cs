@@ -66,15 +66,14 @@ namespace DemoProject
                     StatusLabel.Text = "Problem with XML serialization: " + ex.Message;
                 }
             }                        
-            DonwloadFileToClient(path);
-            Finalization(path);
+            DownloadFileToClient(path);
         }
 
         /// <summary>
         /// Download file to client computer; removing xml file from server
         /// </summary>
         /// <param name="path"></param>
-        protected void DonwloadFileToClient(string path)
+        protected void DownloadFileToClient(string path)
         {            
             try
             {
@@ -85,7 +84,6 @@ namespace DemoProject
                 Response.AddHeader("Content-Disposition", "attachment; filename=" + file.Name);
                 Response.AddHeader("Content-Length", file.Length.ToString());
                 Response.ContentType = "text/plain";
-                Response.Flush();
                 Response.TransmitFile(file.FullName);
                 Response.Flush();
                 file.Delete();
@@ -95,12 +93,6 @@ namespace DemoProject
             {
                 StatusLabel.Text = "Problem with downloading XML: " + ex.Message;
             }
-        }
-
-        protected void Finalization(string path)
-        {
-            File.Delete(path);
-            StatusLabel.Text = "Export XML completed!";            
-        }
+        }      
     }
 }
