@@ -44,7 +44,6 @@ namespace DemoProject
                     return;
                 }
 
-                //UpdateModel(item);
                 TryUpdateModel(item);
                 
                 if (ModelState.IsValid)
