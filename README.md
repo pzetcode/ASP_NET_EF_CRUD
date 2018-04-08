@@ -7,7 +7,7 @@ Repro steps of development process:
 - created essential parts like Site.Master, Sitemap, CSS
 - created "offline" edmx database with some sample rows related to cars
 - added EF 6.x
-UI is very basic.
+- UI is very basic
 
 Project details - by menu items:
 - Default page
