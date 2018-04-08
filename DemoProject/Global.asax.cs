@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
 using System.Web.UI;
+using DemoProject.App_Code;
 
 namespace DemoProject
 {
@@ -17,6 +18,7 @@ namespace DemoProject
                 Path = "~/Scripts/jquery.validate.unobtrusive.min.js",
                 DebugPath = "~/Scripts/jquery.validate.unobtrusive.min.js"
             });
+            RouteConfig.RegisterRoutes(System.Web.Routing.RouteTable.Routes);
         }
     }
 }
