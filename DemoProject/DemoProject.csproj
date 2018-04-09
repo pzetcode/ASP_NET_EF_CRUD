@@ -121,6 +121,7 @@
     <Content Include="DynamicData\FieldTemplates\Url.ascx" />
     <Content Include="DynamicData\FieldTemplates\Url_Edit.ascx" />
     <Content Include="ExportDbContent.aspx" />
+    <Content Include="SearchingPanel.aspx" />
     <Content Include="Site.Master" />
     <EntityDeploy Include="SampleModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -393,6 +394,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SampleModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchingPanel.aspx.cs">
+      <DependentUpon>SearchingPanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchingPanel.aspx.designer.cs">
+      <DependentUpon>SearchingPanel.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
