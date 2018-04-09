@@ -21,6 +21,9 @@ Project details - by menu items:
    To insert new record. click "Add new car".
    At this stage I've needed to add DynamicDataTemplatesCS package. Default_Insert.ascx.cs was modified later on to skip "Id" column (primary key in db, identity, auto-incremented).
 
+- Search for car<br />
+    Basic search ("Factory" only)
+    
 - Add new car<br />
    Described above. Date format for "Model year": MM/YYYY.
 
