@@ -3,6 +3,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>Demo project</h1>
-    <p>Project purposes: show basic skills in CSharp and ASP.NET.</p>
+    <p>Project purposes: show basic skills in C# and ASP.NET.</p>
     <p>Technology used: Entity Framework 6.x, LINQ to XML, XML Serialization.</p>        
 </asp:Content>
