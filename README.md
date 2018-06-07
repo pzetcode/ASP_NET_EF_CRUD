@@ -12,27 +12,21 @@ But, to make things bit different, solution is implemented on ASP.NET Web Forms.
 #### Project details - by menu items:
 - Default page
 
-- DB Show data (WebGrid)
-  It is just WebGrid component with paging and sorting to browse db content.
+- DB Show data (WebGrid): it is just WebGrid component with paging and sorting to browse db content.
 
-- DB CRUD (GridView)
-   Actual CRUD interface, based on GridView component.
+- DB CRUD (GridView): actual CRUD interface, based on GridView component.
    Related methods: carsGrid_GetData, carsGrid_UpdateItem, carsGrid_DeleteItem.
    To insert new record. click "Add new car".
    At this stage I've needed to add DynamicDataTemplatesCS package. Default_Insert.ascx.cs was modified later on to skip "Id" column (primary key in db, identity, auto-incremented).
 
-- Search for car
-    Basic search ("Factory" only)
+- Search for car: basic search ("Factory" only)
     
-- Add new car
-   Described above. Date format for "Model year": MM/YYYY.
+- Add new car: described above. Date format for "Model year": MM/YYYY.
 
-- Import XML file
-   Import data to db using client XML file - see sample file: https://github.com/pzetcode/DemoProject/blob/master/sampleData.xml.
+- Import XML file: import data to db using client XML file - see sample file: [sampleData.xml](https://github.com/pzetcode/DemoProject/blob/master/sampleData.xml).
    LINQ to XML was used to process import.
 
-- Export db content
-   Export whole db content into client machine using XML serialization.
+- Export db content: export whole db content into client machine using XML serialization.
    Export filename format: dd_MM_yyyy_HH_mm_ss_export.xml.
    Exported file can be used as a source for import.
 
