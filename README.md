@@ -2,14 +2,14 @@
 Main target was to reproduce scaffolded CRUD ASP.NET MVC interface (based on EF 6.x) in "manual" way - it means, to create all related functionality from scratch.
 But, to make things bit different, solution is implemented on ASP.NET Web Forms.
 
-Repro steps of development process:
+#### Repro steps of development process:
 - created empty ASP.NET Web Forms project
 - created essential parts like Site.Master, Sitemap, CSS
 - created "offline" edmx database with some sample rows related to cars
 - added EF 6.x
 - UI is very basic
 
-Project details - by menu items:
+#### Project details - by menu items:
 - Default page
 
 - DB Show data (WebGrid)
