@@ -1,4 +1,4 @@
-##Project idea
+## Project idea
 Main target was to reproduce scaffolded CRUD ASP.NET MVC interface (based on EF 6.x) in "manual" way - it means, to create all related functionality from scratch.
 But, to make things bit different, solution is implemented on ASP.NET Web Forms.
 
@@ -28,7 +28,7 @@ Project details - by menu items:
    Described above. Date format for "Model year": MM/YYYY.
 
 - Import XML file
-   Import data to db using client XML file - see sample file: https://github.com/pzetcode/DemoProject/blob/master/sampleData.xml.<br />
+   Import data to db using client XML file - see sample file: https://github.com/pzetcode/DemoProject/blob/master/sampleData.xml.
    LINQ to XML was used to process import.
 
 - Export db content
@@ -36,5 +36,5 @@ Project details - by menu items:
    Export filename format: dd_MM_yyyy_HH_mm_ss_export.xml.
    Exported file can be used as a source for import.
 
-##Reference
+## Reference
 [Model Binding and Web Forms](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/presenting-and-managing-data/model-binding/)
